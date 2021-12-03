@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  font-family: "spartan";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.minilogo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.minilogo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar__link {
+  display: flex;
+  margin-left: 40%;
+}
+
+.navbar__link__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+.navbar__link__btn {
+  margin: 0px 40px;
+}
+
+.navbar__link__btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__join {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.navbar__join a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__join__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
+}
