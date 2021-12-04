@@ -21,14 +21,14 @@ nav {
   line-height: 20px;
 }
 
-.minilogo {
+.minilogo__navbar {
   display: flex;
   justify-content: end;
   align-items: center;
   padding: 0px 30px 0px 10px;
 }
 
-.minilogo img {
+.minilogo__navbar img {
   height: 20px;
   width: auto;
 }
