@@ -1,9 +1,10 @@
 .navbar {
   display: flex;
   position: fixed;
+  padding: 20px;
+  top: 0;
   width: 100%;
   height: 80px;
-  padding: 20px;
   box-sizing: border-box;
   background-color: whitesmoke;
   font-family: "spartan";
@@ -13,29 +14,27 @@
   line-height: 20px;
 }
 
-.minilogo {
+.minilogo__nav {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-left: 20px;
 }
 
-.minilogo img {
+.minilogo__nav img {
   height: 40px;
   width: auto;
 }
 
 .navbar__link {
   display: flex;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .navbar__link__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  position: relative;
-  margin-right: 20px;
+  margin: 0px 40px;
 }
 
 .navbar__link__btn {
@@ -43,17 +42,6 @@
 }
 
 .navbar__link__btn a {
-  text-decoration: none;
-  color: black;
-}
-
-.navbar__join {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-}
-
-.navbar__join a {
   text-decoration: none;
   color: black;
 }
